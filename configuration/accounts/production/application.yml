@@ -1,11 +1,8 @@
 server:
   port: 7777
-spring:
+accounts:
   datasource:
-    url=jdbc:mysql://localhost:3306/kodilla_pro?serverTimezone=Europe/Warsaw&useSSL=False
-    username=kodilla_pro
-    password=Yc5CJpJ43k*.
-    driver-class-name=com.mysql.cj.jdbc.Driver
-  jpa:
-    hibernate:
-      ddl-auto=update
+    url: jdbc:mysql://localhost:3306/kodilla_pro?serverTimezone=Europe/Warsaw&useSSL=False
+    username: kodilla_pro
+    password: Yc5CJpJ43k*.
+    ddl-mode: update
